@@ -70,6 +70,10 @@ const styles = (theme) => {
     largeImage: {
       width: '100%',
     },
+    logoImage: {
+      width: '210px',
+      marginTop: '10px'
+    },
     sectionGridContainer: {
       display: 'flex',
       alignItems: 'center',

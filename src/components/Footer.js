@@ -15,6 +15,8 @@ const Footer = () => {
             {' '}
             {new Date().getFullYear()}
             {' .'}
+            <br></br>
+            +56 9 7898 2012
     </Box>
   );
 };

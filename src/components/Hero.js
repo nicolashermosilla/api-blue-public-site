@@ -18,7 +18,7 @@ const Hero = () => {
           </Typography>
         </Grid>
         <Grid item xs={12} md={5}>
-          <img src={chatPerson} alt="My Team" className={classes.largeImage} />
+          <img src={chatPerson} alt="Person chat" className={classes.largeImage} />
         </Grid>
       </Grid>
     </Box>

@@ -17,6 +17,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import useStyles from '../styles/styles';
 import { useTheme } from '@mui/material/styles';
 import useMediaQuery from '@mui/material/useMediaQuery';
+import logo from '../images/logo.png';
 
 function ElevationScroll(props) {
   const { children, window } = props;
@@ -92,12 +93,7 @@ const Header = (props) => {
       <ElevationScroll {...props}>
         <AppBar>
           <Toolbar className={classes.toolBar}>
-            <Link href="#" underline="none">
-              <Typography variant="h5" className={classes.logo}>
-                Api Blue
-              </Typography>
-            </Link>
-
+            <img src={logo} alt="Api Blue" className={classes.logoImage} />
             {matches ? (
               <Box>
               <IconButton

@@ -11,18 +11,21 @@ const Section = () => {
   const sectionItems = [
     {
       id: 1,
+      title: "Chat multiagente",
       icon: <GroupsdIcon sx={{ fontSize: 100 }} color="primary" />,
       sentence:
-        'Chat multiagente. Organiza las conversaciónes de tu negocio con multiples agentes en un solo número télefonico',
+        'Organiza las conversaciónes de tu negocio con multiples agentes en un solo número télefonico',
     },
     {
       id: 2,
+      title: "Campañas",
       icon: <AccountTreeIcon sx={{ fontSize: 100 }} color="primary" />,
       sentence:
         'Crea campañas, envios masivos y respuestas automaticas a tus clientes.',
     },
     {
       id: 3,
+      title: "Métricas",
       icon: <QueryStatsIcon sx={{ fontSize: 100 }} color="primary" />,
       sentence: 'Metricas y estadisticas de tus cleintes',
     },
@@ -40,6 +43,7 @@ const Section = () => {
             className={classes.sectionGridItem}
           >
             {item.icon}
+            <Typography>{item.title}</Typography>
             <Typography>{item.sentence}</Typography>
           </Grid>
         ))}
